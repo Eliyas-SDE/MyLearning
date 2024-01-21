@@ -108,3 +108,18 @@ git diff
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
+
+
+Push Code into the Distributed Repository:
+==========================================
+git remote add origin https://github.com/Eliyas-SDE/MyLearning.git
+******************************************************************
+	Establishing connection between your local and distributed repo.
+
+git branch -m main
+******************
+	Linking your main branch to the distributed repository.
+
+git push -u origin main
+***********************
+	Pushing your code to the distributed respository.
