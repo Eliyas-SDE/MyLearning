@@ -138,3 +138,7 @@ git pull
 git push --all
 **************
 	Pushes both main and backup braches into the centralized repository
+	
+git pull https://github.com/Eliyas-SDE/MyLearning.git backup
+************************************************************
+	This will pull all the changes does exists in centralized repository and in the same branch backup
