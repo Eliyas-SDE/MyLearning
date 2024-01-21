@@ -139,6 +139,10 @@ git fetch
 *********
 	Copies only the changes from the remote repository.
 
+git fetch
+*********
+	Copies only the changes from the remote repository.
+
 git push --all
 **************
 	Pushes both main and backup braches into the centralized repository
