@@ -135,6 +135,10 @@ git pull
 ********
 	We can also edit the file from the GIT Repository directly and those changes to be reflected in main brach this command helps
 
+git fetch
+*********
+	Copies only the changes from the remote repository.
+
 git push --all
 **************
 	Pushes both main and backup braches into the centralized repository
