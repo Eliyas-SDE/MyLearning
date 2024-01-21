@@ -108,3 +108,33 @@ git diff
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
+	
+	
+merge
+=====
+git merge -m "Merge from main branch" main
+******************************************
+	This command will copy the recent changes from main to backup branch assuming the local repository is pointing to backup.
+
+
+Push Code into the Distributed Repository:
+==========================================
+git remote add origin https://github.com/Eliyas-SDE/MyLearning.git
+******************************************************************
+	Establishing connection between your local and distributed repo.
+
+git branch -m main
+******************
+	Linking your main branch to the distributed repository.
+
+git push -u origin main
+***********************
+	Pushing your code to the distributed respository.
+	
+git pull
+********
+	We can also edit the file from the GIT Repository directly and those changes to be reflected in main brach this command helps
+
+git push --all
+**************
+	Pushes both main and backup braches into the centralized repository
