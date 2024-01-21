@@ -81,4 +81,4 @@ git log
 	
 git diff
 ********
-	Will return which file is modified and what information is added.
+	Will return which file has been modified and what information is added/deleted.
