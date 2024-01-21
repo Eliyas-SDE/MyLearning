@@ -114,7 +114,7 @@ merge
 =====
 git merge -m "Merge from main branch" main
 ******************************************
-	This command will copy the recent changes from main to backup branch assuming the local repository is pointing to backup.
+	This command will copy the recent changes from main to backup branch and the local repository must point to the target brach backup.
 
 
 Push Code into the Distributed Repository:
