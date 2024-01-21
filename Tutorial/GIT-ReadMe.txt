@@ -83,9 +83,15 @@ git rm --cached ReadMe.txt
 	eg. if *.JPG is added then no .JPG file present in the parent folder will be tracked.
 	
 
-commit: git commit -m "Commit my changes"
-======	*********************************
+commit:
+======	
+git commit -m "Commit my changes"
+*********************************
 	commit is something stored in the local repository. It stores the data as set of snapshots. It saves only the files which has been modified.
+	
+git commit -a -m "Add and Commit my changes"
+********************************************
+	add and then commit the changes
 
 git log
 *******
