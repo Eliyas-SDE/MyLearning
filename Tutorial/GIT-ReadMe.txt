@@ -108,6 +108,13 @@ git diff
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
+	
+	
+merge
+=====
+git merge -m "Merge from main branch" main
+******************************************
+	This command will copy the recent changes from main to backup branch assuming the local repository is pointing to backup.
 
 
 Push Code into the Distributed Repository:
