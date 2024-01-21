@@ -41,9 +41,44 @@ Step 4: Initiate/Define a normal folder which could be your workspace into a GIT
 	git init 
 	Now observe a .git folder is newly created inside your workspace location. If you don't find .git folder then check the "Hidden Items" from the "View" option in the "Menu" bar
 
-Step 5: Check the Status of GIT
-	git status
+
+GIT commands:
+============
+git status
+**********
 	Observe a message which reads untracked files. 
+
+git branch -m master main
+*************************
+	Now point your master brach to your main branch which you named at Step 3
 	
+git add .
+*********
+	Add a file/folder you wish to track by GIT
 	
+git add ReadMe.txt
+******************
+	If you want to add a specific file
 	
+git rm --cached ReadMe.txt
+***************************
+	If you don't want your file to be tracked
+	
+
+.gitignore file
+===============
+	Create a file with .gitignore extension and Save As the same as "gitignore". Any file name or extension mentioned inside this file will not be tracked.
+	eg. if *.JPG is added then no .JPG file present in the parent folder will be tracked.
+	
+
+commit: git commit -m "Commit my changes"
+======	*********************************
+	commit is something stored in the local repository. It stores the data as set of snapshots. It saves only the files which has been modified.
+
+git log
+*******
+	Will return the last commit details like username, email, description etc
+	
+git diff
+********
+	Will say which file is modified and what information is added.
