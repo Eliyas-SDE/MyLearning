@@ -64,6 +64,10 @@ git switch backup
 *****************
 	Now GIT will point to backup branch
 	
+git branch -d backup
+********************
+	Delete the branch backup
+	
 git add .
 *********
 	Add a file/folder you wish to track by GIT
@@ -104,4 +108,3 @@ git diff
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
-
