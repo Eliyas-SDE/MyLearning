@@ -134,6 +134,11 @@ git push -u origin main
 git fetch
 *********
 	Copies only the changes from the remote repository.
+	
+	
+git merge
+*********
+	This command should run next to the fetch in order to reflect the changes in the main branch.
 
 git pull
 ********
