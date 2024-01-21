@@ -52,6 +52,18 @@ git branch -m master main
 *************************
 	Now point your master brach to your main branch which you named at Step 3
 	
+git branch
+**********
+	Will say which branch the repo is currently pointing to eg. main or backup
+	
+git branch backup
+*****************
+	Creates a new branch called backup
+	
+git switch backup
+*****************
+	Now GIT will point to backup branch
+	
 git add .
 *********
 	Add a file/folder you wish to track by GIT
@@ -82,3 +94,8 @@ git log
 git diff
 ********
 	Will return which file has been modified and what information is added/deleted.
+	
+git log -p
+**********
+	Will return the consolidated results of git log and git diff
+
