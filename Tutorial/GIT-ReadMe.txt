@@ -151,3 +151,11 @@ git push --all
 git pull https://github.com/Eliyas-SDE/MyLearning.git backup
 ************************************************************
 	This will pull all the changes does exists in centralized repository and in the same branch backup
+	
+git remote -v
+**************
+	To view the remote origin url
+	
+git remote set-url origin https://github.com/Eliyas-SDE/Playwright-TestLeaf.git
+********************************************************************************
+	To change the remote origin url
