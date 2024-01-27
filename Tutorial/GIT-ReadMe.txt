@@ -31,7 +31,7 @@ Step 1: Setup username
 	git config --global user.name "Eliyas F"
 
 Step 2: Setup user email
-	git config -global user.email "eliyas.sde@gmail.com
+	git config --global user.email "eliyas.sde@gmail.com
 
 Step 3: Name your default branch
 	git config --global init.default branch main
