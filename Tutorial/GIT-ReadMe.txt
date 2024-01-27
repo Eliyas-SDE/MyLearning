@@ -105,6 +105,10 @@ git diff
 ********
 	Will return which file has been modified and what information is added/deleted.
 	
+git diff main backup
+********************
+	Will return the difference between main and backup
+	
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
