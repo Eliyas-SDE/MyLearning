@@ -105,15 +105,13 @@ git diff
 ********
 	Will return which file has been modified and what information is added/deleted.
 	
-<<<<<<< HEAD
 git diff main backup
 ********************
 	Will return the difference between main and backup
-=======
+
 Note:
 ====
-	In order to compare braches in remote repo Go to Pull requests tab ---> Create pull request --> select base and main where in base outdated branch must be selected and compare updated brach must have selected
->>>>>>> backup
+	In order to compare braches in remote repo Go to Pull requests tab ---> Create pull request --> select base and main where in base outdated branch must be selected and compare updated brach must have selected backup
 	
 git log -p
 **********
