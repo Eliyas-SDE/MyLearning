@@ -105,6 +105,10 @@ git diff
 ********
 	Will return which file has been modified and what information is added/deleted.
 	
+Note:
+====
+	In order to compare braches in remote repo Go to Pull requests tab ---> Create pull request --> select base and main where in base outdated branch must be selected and compare updated brach must have selected
+	
 git log -p
 **********
 	Will return the consolidated results of git log and git diff
