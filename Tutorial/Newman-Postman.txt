@@ -1,0 +1,35 @@
+Limitations of Postman:
+======================
+1) Reporting can't be done
+2) Can't schdule script execution
+3) Can't integrate with CI/CD
+
+Solution:
+========
+Newman - A NodeJS software which enables Postman scripts run through command line.
+
+Installation steps:
+==================
+Step 1: Download NodeJs & install
+		node -v
+		npm -v
+
+Step 2: Install Newman
+		npm install -g newman or npm install newman(if want to install globally for all users of the machine)
+		newman -v
+	
+Step 3: Install the reporting package called htmlextra
+		npm install -g newman-reporter=-htmlextra
+		
+		
+Execution Steps:
+================
+Step 1: Export the collections, global and environment variables into a common folder
+
+Step 2: Open the command prompt form the folder location and run newman run SanityRequest.postman-collection.json -e Dev-env.json -g myGlobal.json -r htmlextra
+
+Note: 
+=====
+1) If we're running throgh Jenkins by ouselves then complete folder location has to be mentioned for collection, env and global. eg., c:\users\eliyas\downloads\SanityRequest.postman-collection.json 
+2) If sheduling through jenkins then Create a project item--> General---> Build---> Execute Windows Batch Command and give the local folder location
+3) If scheduling to run during build then Project item--> Build Trigger--> Select checkbox "Poll SCM". Pre-requisite is collection, env and globals must present in Git Repo.
